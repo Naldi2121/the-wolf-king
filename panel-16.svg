@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0e1118"/><stop offset="1" stop-color="#93a1b7"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)"/>
+  <circle cx="1280" cy="190" r="145" fill="#fff" opacity=".18"/>
+  <path d="M0 760 L180 600 330 720 470 550 620 700 830 490 1010 690 1190 530 1380 720 1600 570 1600 1000 0 1000Z" fill="#05070b" opacity=".58"/>
+  <rect x="54" y="54" width="1492" height="892" rx="26" fill="none" stroke="#fff" stroke-opacity=".23" stroke-width="3"/>
+  <text x="80" y="118" fill="#fff" font-family="Arial, sans-serif" font-size="44" font-weight="700">PANEL 16</text>
+  <text x="80" y="180" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="700">The Lie</text>
+  <text x="80" y="248" fill="#fff" opacity=".88" font-family="Arial, sans-serif" font-size="25">Lyra</text>
+  <foreignObject x="80" y="300" width="1350" height="430">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Arial,sans-serif;color:white;font-size:42px;line-height:1.25;text-shadow:0 2px 8px #000;">
+      Lyra smiles, hiding what she knows.<br/><br/><span style="font-size:34px;opacity:.92">No. I must have mistaken you for someone else.</span>
+    </div>
+  </foreignObject>
+  <text x="80" y="900" fill="#fff" opacity=".65" font-family="Arial, sans-serif" font-size="22">FINAL ANIME ARTWORK SLOT — replace this image without changing the chapter structure</text>
+</svg>

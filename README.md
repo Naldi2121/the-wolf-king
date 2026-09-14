@@ -1,22 +1,17 @@
 # NEX MANGA — The Wolf King
+## Season 1 • Chapter 1 — The Forgotten Pain
 
-This update adds a 100-panel Chapter 1 reader with:
-- panel navigation
-- narrator boxes
-- browser-based narrator playback
-- a 100-panel data structure ready for final artwork
-- chapter/character/world sections
+This build is a complete 50-panel chapter reader with:
+- 50 individually addressable panels
+- panel-by-panel navigation
+- character dialogue bubbles (no narrator feature)
+- progress tracking
+- color visual slots ready for final anime artwork
+- recurring characters introduced in Chapter 1
 
-## Files to upload to the GitHub repository
+### Important
+The 50 panel images included in this prototype are **replaceable artwork slots** containing the finalized scene descriptions. They are not the final anime illustrations.
 
-Replace:
-- index.html
-- styles.css
-- app.js
+The story structure is ready for the final art pass. Replace each `panels/panel-XX.svg` with the corresponding finished anime image later without changing the reader code.
 
-Keep:
-- setsuna-concept.png
-- wrangler.toml
-- README.md
-
-No build step is required for these static files.
+Keep `wrangler.toml` from the existing repository.
