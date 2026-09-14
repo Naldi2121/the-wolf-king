@@ -5,7 +5,7 @@
     "scene": "A vast gothic city glows beneath a full moon.",
     "speaker": "NARRATION",
     "dialogue": "In this world, kings rule more than kingdoms. They rule blood.",
-    "image": "panels/panel-01.svg"
+    "image": "panel-01.svg"
   },
   {
     "number": 2,
@@ -13,7 +13,7 @@
     "scene": "Royal banners hang over the main gate as guards inspect travelers.",
     "speaker": "NARRATION",
     "dialogue": "Every bloodline carries a history. Every history has a secret.",
-    "image": "panels/panel-02.svg"
+    "image": "panel-02.svg"
   },
   {
     "number": 3,
@@ -21,7 +21,7 @@
     "scene": "Setsuna moves through the crowd, watching everything.",
     "speaker": "NARRATION",
     "dialogue": "Some people are born carrying secrets they cannot remember.",
-    "image": "panels/panel-03.svg"
+    "image": "panel-03.svg"
   },
   {
     "number": 4,
@@ -29,7 +29,7 @@
     "scene": "A market vendor tries to charge Setsuna twice.",
     "speaker": "Vendor",
     "dialogue": "That'll be twice the usual price.",
-    "image": "panels/panel-04.svg"
+    "image": "panel-04.svg"
   },
   {
     "number": 5,
@@ -37,7 +37,7 @@
     "scene": "Setsuna calmly exposes the trick and pays the normal price.",
     "speaker": "Setsuna",
     "dialogue": "You were going to charge me twice as much before I smiled.",
-    "image": "panels/panel-05.svg"
+    "image": "panel-05.svg"
   },
   {
     "number": 6,
@@ -45,7 +45,7 @@
     "scene": "He leaves with his food, quietly studying the people around him.",
     "speaker": "NARRATION",
     "dialogue": "Setsuna studies people\u2014not to connect, but to understand.",
-    "image": "panels/panel-06.svg"
+    "image": "panel-06.svg"
   },
   {
     "number": 7,
@@ -53,7 +53,7 @@
     "scene": "A family passes him. Setsuna stops when he hears one word.",
     "speaker": "Mother",
     "dialogue": "Come on, we're going home.",
-    "image": "panels/panel-07.svg"
+    "image": "panel-07.svg"
   },
   {
     "number": 8,
@@ -61,7 +61,7 @@
     "scene": "Setsuna watches them disappear into the crowd.",
     "speaker": "Setsuna",
     "dialogue": "...Family.",
-    "image": "panels/panel-08.svg"
+    "image": "panel-08.svg"
   },
   {
     "number": 9,
@@ -69,7 +69,7 @@
     "scene": "He sits above the city, alone with the moonlight.",
     "speaker": "NARRATION",
     "dialogue": "For Setsuna, even ordinary memories arrive as questions.",
-    "image": "panels/panel-09.svg"
+    "image": "panel-09.svg"
   },
   {
     "number": 10,
@@ -77,7 +77,7 @@
     "scene": "Lyra Veyne appears in the street below, carrying a sealed document.",
     "speaker": "NARRATION",
     "dialogue": "Then someone entered his life who already knew too much.",
-    "image": "panels/panel-10.svg"
+    "image": "panel-10.svg"
   },
   {
     "number": 11,
@@ -85,7 +85,7 @@
     "scene": "Setsuna sees Lyra. A sudden pain tears through his head.",
     "speaker": "Setsuna",
     "dialogue": "What...?",
-    "image": "panels/panel-11.svg"
+    "image": "panel-11.svg"
   },
   {
     "number": 12,
@@ -93,7 +93,7 @@
     "scene": "A burning city flashes through his mind.",
     "speaker": "Unknown Voice",
     "dialogue": "Run!",
-    "image": "panels/panel-12.svg"
+    "image": "panel-12.svg"
   },
   {
     "number": 13,
@@ -101,7 +101,7 @@
     "scene": "Setsuna touches the scar over his left eye.",
     "speaker": "NARRATION",
     "dialogue": "The pain was not a memory. Not yet.",
-    "image": "panels/panel-13.svg"
+    "image": "panel-13.svg"
   },
   {
     "number": 14,
@@ -109,7 +109,7 @@
     "scene": "Lyra looks directly at his scar and freezes for half a second.",
     "speaker": "Lyra",
     "dialogue": "Have we met?",
-    "image": "panels/panel-14.svg"
+    "image": "panel-14.svg"
   },
   {
     "number": 15,
@@ -117,7 +117,7 @@
     "scene": "Setsuna studies her reaction.",
     "speaker": "Setsuna",
     "dialogue": "You tell me.",
-    "image": "panels/panel-15.svg"
+    "image": "panel-15.svg"
   },
   {
     "number": 16,
@@ -125,7 +125,7 @@
     "scene": "Lyra smiles, hiding what she knows.",
     "speaker": "Lyra",
     "dialogue": "No. I must have mistaken you for someone else.",
-    "image": "panels/panel-16.svg"
+    "image": "panel-16.svg"
   },
   {
     "number": 17,
@@ -133,7 +133,7 @@
     "scene": "Setsuna follows her after she leaves.",
     "speaker": "NARRATION",
     "dialogue": "He did not trust her. He wanted answers.",
-    "image": "panels/panel-17.svg"
+    "image": "panel-17.svg"
   },
   {
     "number": 18,
@@ -141,7 +141,7 @@
     "scene": "Lyra turns down an empty alley and vanishes.",
     "speaker": "Setsuna",
     "dialogue": "...Interesting.",
-    "image": "panels/panel-18.svg"
+    "image": "panel-18.svg"
   },
   {
     "number": 19,
@@ -149,7 +149,7 @@
     "scene": "Setsuna appears at the end of the alley in a burst of blue-white energy.",
     "speaker": "Lyra",
     "dialogue": "You're not very good at following people.",
-    "image": "panels/panel-19.svg"
+    "image": "panel-19.svg"
   },
   {
     "number": 20,
@@ -157,7 +157,7 @@
     "scene": "Setsuna realizes she expected him.",
     "speaker": "Setsuna",
     "dialogue": "You noticed.",
-    "image": "panels/panel-20.svg"
+    "image": "panel-20.svg"
   },
   {
     "number": 21,
@@ -165,7 +165,7 @@
     "scene": "A royal knight watches from a nearby rooftop.",
     "speaker": "Kael",
     "dialogue": "So the rumors were true.",
-    "image": "panels/panel-21.svg"
+    "image": "panel-21.svg"
   },
   {
     "number": 22,
@@ -173,7 +173,7 @@
     "scene": "Kael approaches Setsuna after Lyra leaves.",
     "speaker": "Kael",
     "dialogue": "You should stop asking questions.",
-    "image": "panels/panel-22.svg"
+    "image": "panel-22.svg"
   },
   {
     "number": 23,
@@ -181,7 +181,7 @@
     "scene": "Setsuna studies the knight's crest.",
     "speaker": "Setsuna",
     "dialogue": "People usually say that when they are hiding something.",
-    "image": "panels/panel-23.svg"
+    "image": "panel-23.svg"
   },
   {
     "number": 24,
@@ -189,7 +189,7 @@
     "scene": "Far away, royal strategist Riven Hale receives a report.",
     "speaker": "Riven",
     "dialogue": "The scar. Confirm it.",
-    "image": "panels/panel-24.svg"
+    "image": "panel-24.svg"
   },
   {
     "number": 25,
@@ -197,7 +197,7 @@
     "scene": "A young noblewoman reads the report over Riven's shoulder.",
     "speaker": "Solene",
     "dialogue": "That's impossible.",
-    "image": "panels/panel-25.svg"
+    "image": "panel-25.svg"
   },
   {
     "number": 26,
@@ -205,7 +205,7 @@
     "scene": "Setsuna feels eyes on him from three directions.",
     "speaker": "NARRATION",
     "dialogue": "He had been alone for years. Tonight, he was suddenly being counted.",
-    "image": "panels/panel-26.svg"
+    "image": "panel-26.svg"
   },
   {
     "number": 27,
@@ -213,7 +213,7 @@
     "scene": "Lyra appears again, more serious than before.",
     "speaker": "Lyra",
     "dialogue": "You need to leave the capital.",
-    "image": "panels/panel-27.svg"
+    "image": "panel-27.svg"
   },
   {
     "number": 28,
@@ -221,7 +221,7 @@
     "scene": "Setsuna asks why.",
     "speaker": "Setsuna",
     "dialogue": "Why?",
-    "image": "panels/panel-28.svg"
+    "image": "panel-28.svg"
   },
   {
     "number": 29,
@@ -229,7 +229,7 @@
     "scene": "Lyra hesitates.",
     "speaker": "Lyra",
     "dialogue": "Because some people are afraid of what your blood remembers.",
-    "image": "panels/panel-29.svg"
+    "image": "panel-29.svg"
   },
   {
     "number": 30,
@@ -237,7 +237,7 @@
     "scene": "A masked fighter attacks from the rooftops.",
     "speaker": "Masked Fighter",
     "dialogue": "You should have stayed forgotten.",
-    "image": "panels/panel-30.svg"
+    "image": "panel-30.svg"
   },
   {
     "number": 31,
@@ -245,7 +245,7 @@
     "scene": "Setsuna teleports between buildings.",
     "speaker": "NARRATION",
     "dialogue": "For the first time, the city saw what Setsuna could do.",
-    "image": "panels/panel-31.svg"
+    "image": "panel-31.svg"
   },
   {
     "number": 32,
@@ -253,7 +253,7 @@
     "scene": "His scarred eye glows crimson for an instant.",
     "speaker": "Setsuna",
     "dialogue": "What is happening to me?",
-    "image": "panels/panel-32.svg"
+    "image": "panel-32.svg"
   },
   {
     "number": 33,
@@ -261,7 +261,7 @@
     "scene": "The attacker's supernatural technique appears inside Setsuna's Crimson Eye.",
     "speaker": "Masked Fighter",
     "dialogue": "You copied it...?",
-    "image": "panels/panel-33.svg"
+    "image": "panel-33.svg"
   },
   {
     "number": 34,
@@ -269,7 +269,7 @@
     "scene": "The masked fighter retreats.",
     "speaker": "Masked Fighter",
     "dialogue": "He can't remember. Not yet.",
-    "image": "panels/panel-34.svg"
+    "image": "panel-34.svg"
   },
   {
     "number": 35,
@@ -277,7 +277,7 @@
     "scene": "Lyra looks genuinely frightened.",
     "speaker": "Lyra",
     "dialogue": "You weren't supposed to awaken.",
-    "image": "panels/panel-35.svg"
+    "image": "panel-35.svg"
   },
   {
     "number": 36,
@@ -285,7 +285,7 @@
     "scene": "Kael sees the aftermath and recognizes the power.",
     "speaker": "Kael",
     "dialogue": "That ability...",
-    "image": "panels/panel-36.svg"
+    "image": "panel-36.svg"
   },
   {
     "number": 37,
@@ -293,7 +293,7 @@
     "scene": "Setsuna notices the same crest seen throughout the capital.",
     "speaker": "Setsuna",
     "dialogue": "Why does that symbol keep appearing?",
-    "image": "panels/panel-37.svg"
+    "image": "panel-37.svg"
   },
   {
     "number": 38,
@@ -301,7 +301,7 @@
     "scene": "Kael offers an escort. Setsuna refuses.",
     "speaker": "Setsuna",
     "dialogue": "I solve my own problems.",
-    "image": "panels/panel-38.svg"
+    "image": "panel-38.svg"
   },
   {
     "number": 39,
@@ -309,7 +309,7 @@
     "scene": "A black wolf watches from a distant rooftop.",
     "speaker": "NARRATION",
     "dialogue": "But someone else had been watching from the beginning.",
-    "image": "panels/panel-39.svg"
+    "image": "panel-39.svg"
   },
   {
     "number": 40,
@@ -317,7 +317,7 @@
     "scene": "Setsuna collapses as another memory strikes.",
     "speaker": "Setsuna",
     "dialogue": "Not again...",
-    "image": "panels/panel-40.svg"
+    "image": "panel-40.svg"
   },
   {
     "number": 41,
@@ -325,7 +325,7 @@
     "scene": "A ruined kingdom burns in his mind.",
     "speaker": "Unknown Voice",
     "dialogue": "Don't look back!",
-    "image": "panels/panel-41.svg"
+    "image": "panel-41.svg"
   },
   {
     "number": 42,
@@ -333,7 +333,7 @@
     "scene": "A younger Setsuna runs while someone holds his hand.",
     "speaker": "Young Setsuna",
     "dialogue": "Who are you?",
-    "image": "panels/panel-42.svg"
+    "image": "panel-42.svg"
   },
   {
     "number": 43,
@@ -341,7 +341,7 @@
     "scene": "A massive black wolf appears among the fire.",
     "speaker": "Wolf",
     "dialogue": "Remember.",
-    "image": "panels/panel-43.svg"
+    "image": "panel-43.svg"
   },
   {
     "number": 44,
@@ -349,7 +349,7 @@
     "scene": "Setsuna screams and the memory shatters.",
     "speaker": "Setsuna",
     "dialogue": "Who are you?!",
-    "image": "panels/panel-44.svg"
+    "image": "panel-44.svg"
   },
   {
     "number": 45,
@@ -357,7 +357,7 @@
     "scene": "He wakes in the present with blood running from his scar.",
     "speaker": "Lyra",
     "dialogue": "You saw it, didn't you?",
-    "image": "panels/panel-45.svg"
+    "image": "panel-45.svg"
   },
   {
     "number": 46,
@@ -365,7 +365,7 @@
     "scene": "Lyra finally says the name she was avoiding.",
     "speaker": "Lyra",
     "dialogue": "Ashen Kingdom.",
-    "image": "panels/panel-46.svg"
+    "image": "panel-46.svg"
   },
   {
     "number": 47,
@@ -373,7 +373,7 @@
     "scene": "Inside the palace, Riven gives a quiet command.",
     "speaker": "Riven",
     "dialogue": "Find him before he remembers everything.",
-    "image": "panels/panel-47.svg"
+    "image": "panel-47.svg"
   },
   {
     "number": 48,
@@ -381,7 +381,7 @@
     "scene": "Setsuna looks toward the royal castle.",
     "speaker": "Setsuna",
     "dialogue": "Then I'll find the truth first.",
-    "image": "panels/panel-48.svg"
+    "image": "panel-48.svg"
   },
   {
     "number": 49,
@@ -389,7 +389,7 @@
     "scene": "The black wolf stands above the city, eyes fixed on Setsuna.",
     "speaker": "Wolf",
     "dialogue": "Soon.",
-    "image": "panels/panel-49.svg"
+    "image": "panel-49.svg"
   },
   {
     "number": 50,
@@ -397,7 +397,7 @@
     "scene": "Two hidden figures study a file bearing Setsuna's face.",
     "speaker": "Unknown",
     "dialogue": "He's starting to remember.",
-    "image": "panels/panel-50.svg"
+    "image": "panel-50.svg"
   },
   {
     "number": 51,
@@ -405,6 +405,6 @@
     "scene": "The second figure answers without looking up.",
     "speaker": "Unknown",
     "dialogue": "Then find him before he remembers everything.",
-    "image": "panels/panel-51.svg"
+    "image": "panel-51.svg"
   }
 ]
