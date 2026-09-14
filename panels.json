@@ -3,7 +3,7 @@
     "number": 1,
     "title": "The Royal Capital",
     "scene": "A vast gothic city glows beneath a full moon.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "In this world, kings rule more than kingdoms. They rule blood.",
     "image": "panel-01.svg"
   },
@@ -11,7 +11,7 @@
     "number": 2,
     "title": "The Gate",
     "scene": "Royal banners hang over the main gate as guards inspect travelers.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "Every bloodline carries a history. Every history has a secret.",
     "image": "panel-02.svg"
   },
@@ -19,7 +19,7 @@
     "number": 3,
     "title": "Among Strangers",
     "scene": "Setsuna moves through the crowd, watching everything.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "Some people are born carrying secrets they cannot remember.",
     "image": "panel-03.svg"
   },
@@ -43,7 +43,7 @@
     "number": 6,
     "title": "The Observer",
     "scene": "He leaves with his food, quietly studying the people around him.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "Setsuna studies people\u2014not to connect, but to understand.",
     "image": "panel-06.svg"
   },
@@ -67,7 +67,7 @@
     "number": 9,
     "title": "The Rooftop",
     "scene": "He sits above the city, alone with the moonlight.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "For Setsuna, even ordinary memories arrive as questions.",
     "image": "panel-09.svg"
   },
@@ -75,7 +75,7 @@
     "number": 10,
     "title": "The Girl",
     "scene": "Lyra Veyne appears in the street below, carrying a sealed document.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "Then someone entered his life who already knew too much.",
     "image": "panel-10.svg"
   },
@@ -99,7 +99,7 @@
     "number": 13,
     "title": "The Scar",
     "scene": "Setsuna touches the scar over his left eye.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "The pain was not a memory. Not yet.",
     "image": "panel-13.svg"
   },
@@ -131,7 +131,7 @@
     "number": 17,
     "title": "The Follow",
     "scene": "Setsuna follows her after she leaves.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "He did not trust her. He wanted answers.",
     "image": "panel-17.svg"
   },
@@ -203,7 +203,7 @@
     "number": 26,
     "title": "Someone Is Watching",
     "scene": "Setsuna feels eyes on him from three directions.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "He had been alone for years. Tonight, he was suddenly being counted.",
     "image": "panel-26.svg"
   },
@@ -243,7 +243,7 @@
     "number": 31,
     "title": "The Escape",
     "scene": "Setsuna teleports between buildings.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "For the first time, the city saw what Setsuna could do.",
     "image": "panel-31.svg"
   },
@@ -307,7 +307,7 @@
     "number": 39,
     "title": "The Wolf",
     "scene": "A black wolf watches from a distant rooftop.",
-    "speaker": "NARRATION",
+    "speaker": "STORY",
     "dialogue": "But someone else had been watching from the beginning.",
     "image": "panel-39.svg"
   },
@@ -398,13 +398,5 @@
     "speaker": "Unknown",
     "dialogue": "He's starting to remember.",
     "image": "panel-50.svg"
-  },
-  {
-    "number": 51,
-    "title": "The Threat",
-    "scene": "The second figure answers without looking up.",
-    "speaker": "Unknown",
-    "dialogue": "Then find him before he remembers everything.",
-    "image": "panel-51.svg"
   }
 ]

@@ -1,28 +1,72 @@
-let panels=[];
-let current=0;
-const reader=document.getElementById("reader"), img=document.getElementById("panelImg");
-const pn=document.getElementById("pn"), pt=document.getElementById("pt"), sp=document.getElementById("sp"), tx=document.getElementById("tx");
-const bar=document.getElementById("bar"), counter=document.getElementById("counter");
-function render(){
- const p=panels[current]; if(!p)return;
- img.src=p.image; img.alt=`Panel ${p.number}: ${p.title}`;
- pn.textContent=`PANEL ${String(p.number).padStart(2,"0")}`;
- pt.textContent=p.title;
- sp.textContent=p.speaker;
- tx.textContent=`“${p.dialogue}”`;
- counter.textContent=`${p.number} / ${panels.length}`;
- bar.style.setProperty("--p",`${(p.number/panels.length)*100}%`);
- document.querySelector(".panel").scrollIntoView({behavior:"smooth",block:"start"});
+let panels = [];
+let current = 0;
+
+const reader = document.getElementById("reader");
+const img = document.getElementById("panelImg");
+const pn = document.getElementById("pn");
+const pt = document.getElementById("pt");
+const sp = document.getElementById("sp");
+const tx = document.getElementById("tx");
+const bar = document.querySelector(".progress > div");
+const counter = document.getElementById("counter");
+
+function render() {
+  const p = panels[current];
+  if (!p) return;
+
+  img.src = p.image;
+  img.alt = `Panel ${p.number}: ${p.title}`;
+  pn.textContent = `PANEL ${String(p.number).padStart(2, "0")}`;
+  pt.textContent = p.title;
+  sp.textContent = p.speaker || "STORY";
+  tx.textContent = `“${p.dialogue || p.scene || ""}”`;
+  counter.textContent = `${p.number} / 50`;
+  bar.style.setProperty("--p", `${(p.number / 50) * 100}%`);
 }
-async function load(){
- panels=await fetch("panels.json").then(r=>r.json());
- render();
+
+function next() {
+  if (current < panels.length - 1) {
+    current += 1;
+    render();
+  }
 }
-function next(){if(current<panels.length-1){current++;render()}}
-function prev(){if(current>0){current--;render()}}
-document.getElementById("openReader").onclick=()=>{reader.classList.remove("hidden");current=0;render();reader.scrollIntoView({behavior:"smooth"})}
-document.getElementById("closeReader").onclick=()=>reader.classList.add("hidden");
-document.getElementById("next").onclick=next;document.getElementById("next2").onclick=next;
-document.getElementById("prev").onclick=prev;document.getElementById("prev2").onclick=prev;
-document.addEventListener("keydown",e=>{if(reader.classList.contains("hidden"))return;if(e.key==="ArrowRight")next();if(e.key==="ArrowLeft")prev();if(e.key==="Escape")reader.classList.add("hidden")});
-load();
+
+function prev() {
+  if (current > 0) {
+    current -= 1;
+    render();
+  }
+}
+
+async function loadPanels() {
+  const response = await fetch("panels.json", { cache: "no-store" });
+  if (!response.ok) throw new Error("Could not load panel data.");
+  const data = await response.json();
+  panels = data.slice(0, 50);
+  render();
+}
+
+document.getElementById("openReader").addEventListener("click", () => {
+  reader.classList.remove("hidden");
+  current = 0;
+  render();
+  reader.scrollIntoView({ behavior: "smooth" });
+});
+
+document.getElementById("closeReader").addEventListener("click", () => {
+  reader.classList.add("hidden");
+});
+
+document.getElementById("next").addEventListener("click", next);
+document.getElementById("next2").addEventListener("click", next);
+document.getElementById("prev").addEventListener("click", prev);
+document.getElementById("prev2").addEventListener("click", prev);
+
+document.addEventListener("keydown", (event) => {
+  if (reader.classList.contains("hidden")) return;
+  if (event.key === "ArrowRight") next();
+  if (event.key === "ArrowLeft") prev();
+  if (event.key === "Escape") reader.classList.add("hidden");
+});
+
+loadPanels().catch((error) => console.error(error));
