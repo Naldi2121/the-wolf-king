@@ -1,22 +1,22 @@
 # NEX MANGA — The Wolf King
 
-Static first prototype for the NEX MANGA platform.
+This update adds a 100-panel Chapter 1 reader with:
+- panel navigation
+- narrator boxes
+- browser-based narrator playback
+- a 100-panel data structure ready for final artwork
+- chapter/character/world sections
 
-## Included
-- Cinematic homepage
-- Setsuna character section
-- Season 1: The Forgotten Pain
-- 10 chapter cards with preview modal
-- World-building section
-- Divine Mode locked teaser for Season 2
-- Responsive mobile/desktop layout
+## Files to upload to the GitHub repository
 
-## Deploy
-This repo is configured for Cloudflare Workers static assets using Wrangler.
-Deploy command:
+Replace:
+- index.html
+- styles.css
+- app.js
 
-```bash
-npx wrangler deploy
-```
+Keep:
+- setsuna-concept.png
+- wrangler.toml
+- README.md
 
-No build command is required.
+No build step is required for these static files.

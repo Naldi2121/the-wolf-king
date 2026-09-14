@@ -1,168 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="NEX MANGA — The Wolf King. Season One: The Forgotten Pain." />
+  <meta name="description" content="NEX MANGA — The Wolf King, Season 1: The Forgotten Pain." />
   <title>NEX MANGA — The Wolf King</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
+  <div class="site-glow"></div>
 
-  <header class="site-header">
-    <div class="brand">
-      <div class="brand-mark">N</div>
-      <div>
-        <div class="brand-name">NEX MANGA</div>
-        <div class="brand-tag">A new way to experience stories</div>
-      </div>
-    </div>
-    <nav class="nav" aria-label="Main navigation">
+  <header class="topbar">
+    <a class="brand" href="#home">NEX <span>MANGA</span></a>
+    <nav class="nav">
       <a href="#story">Story</a>
       <a href="#characters">Characters</a>
       <a href="#world">World</a>
-      <a href="#seasons">Seasons</a>
     </nav>
-    <button class="nav-cta" data-scroll="#story">Enter the Story</button>
   </header>
 
   <main>
-    <section class="hero" id="top">
-      <div class="hero-bg"></div>
-      <div class="hero-content">
-        <div class="eyebrow">NEX MANGA ORIGINAL</div>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A NEX MANGA ORIGINAL</p>
         <h1>THE<br><span>WOLF KING</span></h1>
-        <p class="hero-copy">A dark psychological fantasy about memory, power, betrayal, and the truth hidden inside a forgotten past.</p>
-        <div class="hero-actions">
-          <button class="primary-btn" data-scroll="#story">Begin Season One</button>
-          <button class="ghost-btn" data-scroll="#characters">Meet Setsuna</button>
-        </div>
-        <div class="hero-meta">
-          <span>SEASON 01</span><span>THE FORGOTTEN PAIN</span><span>10 CHAPTERS</span>
-        </div>
+        <p class="hero-sub">Season 1 — The Forgotten Pain</p>
+        <p class="hero-text">
+          A dark psychological fantasy about a young man whose body remembers a past
+          his mind has forgotten.
+        </p>
+        <a class="primary-btn" href="#story">Enter the Story</a>
       </div>
+
       <div class="hero-art">
-        <div class="moon"></div>
-      <img src="setsuna-concept.png" alt="Setsuna character concept art from The Wolf King" />
-        <div class="hero-glow"></div>
-      </div>
-      <div class="wolf-sigil" aria-hidden="true">🐺</div>
-      <div class="scroll-cue">SCROLL TO ENTER <span>↓</span></div>
-    </section>
-
-    <section class="intro section" id="story">
-      <div class="section-kicker">THE STORY</div>
-      <div class="section-grid">
-        <div>
-          <h2>He forgot his past.<br><em>His pain did not.</em></h2>
+        <div class="art-frame">
+          <img src="setsuna-concept.png" alt="Setsuna, protagonist of The Wolf King" />
         </div>
-        <div class="intro-copy">
-          <p>Setsuna is nineteen. Clever. Outgoing when he chooses to be. A loner by instinct. He can teleport, and a scarred eye hides a power that can copy supernatural abilities.</p>
-          <p>But the mystery that follows him is more dangerous than any enemy. People, places, voices, and moments trigger pain he cannot explain. Every ache is a fragment of a life his mind can no longer reach.</p>
-          <p>Somewhere beyond the ruins, kings rule ancient bloodlines, wolves watch from the dark, and someone is afraid that Setsuna will remember.</p>
+        <div class="art-caption">
+          <span>SETSUNA</span>
+          <small>THE ONE WHO FORGOT</small>
         </div>
       </div>
     </section>
 
-    <section class="season section" id="seasons">
+    <section id="story" class="section">
       <div class="section-head">
         <div>
-          <div class="section-kicker">SEASON ONE</div>
+          <p class="eyebrow">SEASON ONE</p>
           <h2>The Forgotten Pain</h2>
         </div>
-        <div class="season-badge">10 CHAPTERS</div>
+        <p class="section-intro">
+          Ten chapters. One mystery. A past that refuses to stay buried.
+        </p>
       </div>
 
-      <div class="chapter-grid">
-        <article class="chapter-card active" data-chapter="1">
-          <div class="chapter-number">01</div>
-          <div class="chapter-info"><span>CHAPTER ONE</span><h3>The Forgotten Pain</h3><p>Setsuna's body reacts to a stranger his mind cannot remember.</p></div>
-          <button class="chapter-btn">Read</button>
-        </article>
-        <article class="chapter-card" data-chapter="2"><div class="chapter-number">02</div><div class="chapter-info"><span>CHAPTER TWO</span><h3>The Stranger</h3><p>Someone sees Setsuna and reacts as if he should already be dead.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card" data-chapter="3"><div class="chapter-number">03</div><div class="chapter-info"><span>CHAPTER THREE</span><h3>The Black Wolf</h3><p>A supernatural wolf knows Setsuna's name and something about his past.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card" data-chapter="4"><div class="chapter-number">04</div><div class="chapter-info"><span>CHAPTER FOUR</span><h3>The Crimson Eye</h3><p>Setsuna opens his scarred eye and copies a supernatural ability.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card" data-chapter="5"><div class="chapter-number">05</div><div class="chapter-info"><span>CHAPTER FIVE</span><h3>The Kingdom of Kings</h3><p>The name of a forgotten kingdom triggers a devastating reaction.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card" data-chapter="6"><div class="chapter-number">06</div><div class="chapter-info"><span>CHAPTER SIX</span><h3>The Pain</h3><p>Setsuna realizes the clues are tied to people he may once have loved.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card" data-chapter="7"><div class="chapter-number">07</div><div class="chapter-info"><span>CHAPTER SEVEN</span><h3>The Forgotten Kingdom</h3><p>The ruins of the Ashen Kingdom awaken a memory of fire and loss.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card" data-chapter="8"><div class="chapter-number">08</div><div class="chapter-info"><span>CHAPTER EIGHT</span><h3>The Man in the Memory</h3><p>A familiar voice returns from the past with a haunting apology.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card" data-chapter="9"><div class="chapter-number">09</div><div class="chapter-info"><span>CHAPTER NINE</span><h3>The Truth Behind the Scar</h3><p>The Crimson Eye may be tied directly to the memories that were sealed.</p></div><button class="chapter-btn">Open</button></article>
-        <article class="chapter-card finale" data-chapter="10"><div class="chapter-number">10</div><div class="chapter-info"><span>SEASON FINALE</span><h3>The Wolf King</h3><p>The wolf reveals that Setsuna already knows the person he is searching for.</p></div><button class="chapter-btn">Open</button></article>
-      </div>
+      <div class="chapter-grid" id="chapterGrid"></div>
     </section>
 
-    <section class="character section" id="characters">
-      <div class="section-kicker">MAIN CHARACTER</div>
-      <div class="character-grid">
-        <div class="character-image-wrap">
-         <img src="setsuna-concept.png" alt="Setsuna from The Wolf King" />
-          <div class="image-caption">SETSUNA · 19 · UNKNOWN AFFILIATION</div>
+    <section id="chapterReader" class="reader-section hidden">
+      <div class="reader-top">
+        <div>
+          <p class="eyebrow" id="readerSeason">SEASON 1</p>
+          <h2 id="readerTitle">Chapter 1 — The Forgotten Pain</h2>
         </div>
-        <div class="character-copy">
-          <h2>SETSUNA</h2>
-          <p class="character-title">THE MEMORYLESS STRATEGIST</p>
-          <p>Setsuna is confident, clever, observant, and fiercely independent. He studies people before acting, looks for patterns others miss, and would rather solve a problem himself than ask for help.</p>
-          <p>He is not evil. His moral line is real—but the story will test how long he can keep it.</p>
-          <div class="power-grid">
-            <div class="power-card"><strong>TELEPORTATION</strong><span>Instant movement and unpredictable positioning.</span></div>
-            <div class="power-card"><strong>CRIMSON EYE</strong><span>Copies supernatural abilities by opening the scarred eye.</span></div>
-            <div class="power-card"><strong>STRATEGIST</strong><span>Reads motives, weaknesses, patterns, and consequences.</span></div>
-            <div class="power-card"><strong>MEMORY PAIN</strong><span>People and places can trigger fragments of his erased past.</span></div>
+        <button class="ghost-btn" id="closeReader" type="button">Close</button>
+      </div>
+
+      <div class="reader-progress">
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <span id="panelCounter">Panel 1 / 100</span>
+      </div>
+
+      <div class="panel-stage">
+        <button class="panel-nav prev" id="prevPanel" type="button" aria-label="Previous panel">‹</button>
+
+        <article class="manga-panel" id="mangaPanel">
+          <div class="panel-number" id="panelNumber">PANEL 01</div>
+          <div class="panel-art">
+            <img id="panelImage" src="setsuna-concept.png" alt="Chapter panel artwork" />
+            <div class="panel-placeholder" id="panelPlaceholder">
+              <span>ARTWORK SLOT</span>
+              <small>Panel 01 — Replace this image when final artwork is ready.</small>
+            </div>
           </div>
-        </div>
+
+          <div class="panel-copy">
+            <div class="narrator-box hidden" id="narratorBox">
+              <div class="narrator-label">THE NARRATOR</div>
+              <p id="narratorText"></p>
+              <div class="narrator-controls">
+                <button class="voice-btn" id="playNarration" type="button">▶ Hear narration</button>
+                <button class="voice-btn" id="stopNarration" type="button">■ Stop</button>
+              </div>
+            </div>
+
+            <div class="dialogue-box hidden" id="dialogueBox">
+              <div class="speaker" id="speakerName"></div>
+              <p id="dialogueText"></p>
+            </div>
+          </div>
+        </article>
+
+        <button class="panel-nav next" id="nextPanel" type="button" aria-label="Next panel">›</button>
+      </div>
+
+      <div class="reader-bottom">
+        <button class="ghost-btn" id="prevPanelBottom" type="button">Previous</button>
+        <button class="primary-btn" id="nextPanelBottom" type="button">Next Panel</button>
       </div>
     </section>
 
-    <section class="world section" id="world">
+    <section id="characters" class="section dark-section">
       <div class="section-head">
         <div>
-          <div class="section-kicker">THE WORLD</div>
-          <h2>Kings. Bloodlines. Wolves.</h2>
+          <p class="eyebrow">CHARACTERS</p>
+          <h2>People worth remembering</h2>
         </div>
-        <p class="section-note">The world is bigger than Setsuna knows—and it keeps moving when he isn't watching.</p>
       </div>
-      <div class="world-grid">
-        <div class="world-card"><div class="world-icon">♛</div><h3>Great Kings</h3><p>Rulers of ancient territories, each shaped by different ideologies and histories.</p></div>
-        <div class="world-card"><div class="world-icon">◈</div><h3>Bloodlines</h3><p>Royal families and forgotten lineages carry abilities, rivalries, and buried secrets.</p></div>
-        <div class="world-card"><div class="world-icon">🐺</div><h3>Wolf Tribes</h3><p>Mysterious supernatural beings connected to the deeper mythology of the world.</p></div>
-        <div class="world-card"><div class="world-icon">✦</div><h3>The Unknown</h3><p>Some forces exist outside the kingdoms entirely. Their purpose remains hidden.</p></div>
+
+      <div class="character-grid">
+        <article class="character-card featured">
+          <img src="setsuna-concept.png" alt="Setsuna" />
+          <div>
+            <p class="card-kicker">PROTAGONIST</p>
+            <h3>Setsuna</h3>
+            <p>
+              Clever, strategic, fiercely independent, and haunted by pain he cannot explain.
+            </p>
+            <span class="tag">Teleportation</span>
+            <span class="tag">Crimson Eye</span>
+          </div>
+        </article>
+
+        <article class="character-card">
+          <div class="character-silhouette">LYRA</div>
+          <div>
+            <p class="card-kicker">MYSTERY</p>
+            <h3>Lyra Veyne</h3>
+            <p>She recognizes something about Setsuna that he cannot remember.</p>
+          </div>
+        </article>
+
+        <article class="character-card">
+          <div class="character-silhouette">WOLF</div>
+          <div>
+            <p class="card-kicker">UNKNOWN</p>
+            <h3>The Black Wolf</h3>
+            <p>A supernatural presence connected to Setsuna’s forgotten history.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="divine section" id="divine">
-      <div class="divine-overlay"></div>
-      <div class="divine-content">
-        <div class="section-kicker">COMING IN SEASON TWO</div>
-        <h2>DIVINE MODE</h2>
-        <p>At the end of Season One, someone finally speaks to Setsuna.</p>
-        <button class="locked-btn" id="divineBtn">🔒 DIVINE MODE — LOCKED</button>
-        <small>Season Two will reveal who has been watching.</small>
+    <section id="world" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">WORLD</p>
+          <h2>Kings. Bloodlines. Wolves.</h2>
+        </div>
+        <p class="section-intro">
+          The world will expand slowly. Recurring characters, factions, kingdoms, and
+          bloodlines will unfold as Setsuna discovers more of his past.
+        </p>
+      </div>
+
+      <div class="world-grid">
+        <div class="world-card"><strong>THE KINGS</strong><span>Rival rulers with ancient power.</span></div>
+        <div class="world-card"><strong>BLOODLINES</strong><span>Distinct inheritances with their own histories.</span></div>
+        <div class="world-card"><strong>THE WOLVES</strong><span>Supernatural beings whose true purpose is unknown.</span></div>
+        <div class="world-card locked"><strong>DIVINE MODE</strong><span>Locked — Season 2.</span></div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div><strong>NEX MANGA</strong><span>THE WOLF KING</span></div>
-    <div class="footer-note">A new format for stories built to grow with its audience.</div>
-    <div>© <span id="year"></span> NEX MANGA</div>
+  <footer class="footer">
+    <strong>NEX MANGA</strong>
+    <span>THE WOLF KING • SEASON 1</span>
   </footer>
 
-  <div class="modal" id="chapterModal" aria-hidden="true">
-    <div class="modal-backdrop" data-close></div>
-    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button class="modal-close" data-close aria-label="Close">×</button>
-      <div class="modal-kicker" id="modalKicker">CHAPTER ONE</div>
-      <h2 id="modalTitle">The Forgotten Pain</h2>
-      <p id="modalBody"></p>
-      <div class="modal-footer"><span>SEASON ONE</span><button class="primary-btn" data-close>Close Preview</button></div>
-    </div>
-  </div>
-
-  <div class="toast" id="toast"></div>
- <script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
