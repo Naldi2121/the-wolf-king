@@ -1,15 +1,13 @@
 # NEX MANGA — The Wolf King
+## Chapter 1 — The Forgotten Pain
 
-50-panel Chapter 1 update with the narrator kept as a visual storytelling element.
+Complete 50-panel story build with:
+- expanded dialogue and story beats
+- supporting characters: Lyra Veyne, Kael Draven, Riven Hale, Solene Aria
+- Black Wolf mystery
+- narrator text boxes (visual only)
+- no narrator voice controls
+- 50 panel artwork slots
+- panel navigation and progress
 
-Included:
-- Exactly 50 panels
-- Narrator caption boxes remain visible
-- Narrator voice controls removed
-- No browser text-to-speech
-- Character dialogue bubbles remain
-- Previous/Next navigation
-- 50-panel progress tracking
-- Root-level panel image paths
-
-Later, the narrator boxes can be connected to the AI/Divine One voice system without redesigning the reader.
+The first five panels preserve the approved opening; panels 6–50 expand the story with more dialogue, character interactions, investigation, supernatural conflict, and a cliffhanger.
