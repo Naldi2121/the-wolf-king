@@ -4,349 +4,349 @@
     "title": "The Royal Capital",
     "speaker": "NARRATOR",
     "dialogue": "A vast gothic city glows beneath a full moon.\nIn this world, kings rule more than kingdoms. They rule blood.",
-    "image": "panels/panel-01.svg"
+    "image": "panel-01.svg"
   },
   {
     "number": 2,
     "title": "The Forgotten",
     "speaker": "NARRATOR",
     "dialogue": "There was a young man whose body remembers a past his mind has forgotten.\nEvery time certain people, places, or events appear... he feels a pain he cannot explain.",
-    "image": "panels/panel-02.svg"
+    "image": "panel-02.svg"
   },
   {
     "number": 3,
     "title": "Shadows of the Past",
     "speaker": "NARRATOR",
     "dialogue": "Faces he has never met feel familiar.\nPlaces he has never been feel like home.\nAnd memories that should be empty... hurt.",
-    "image": "panels/panel-03.svg"
+    "image": "panel-03.svg"
   },
   {
     "number": 4,
     "title": "A Question Without Answers",
     "speaker": "NARRATOR",
     "dialogue": "He doesn't know who he is.\nHe doesn't know who did this to him.\nBut he knows one thing... he will find the truth.",
-    "image": "panels/panel-04.svg"
+    "image": "panel-04.svg"
   },
   {
     "number": 5,
     "title": "The Wolf Awakens",
     "speaker": "NARRATOR",
     "dialogue": "In the shadows of this world, something ancient stirs.\nA wolf that should have been forgotten...\nAnd a king who is not yet ready for what is coming.",
-    "image": "panels/panel-05.svg"
+    "image": "panel-05.svg"
   },
   {
     "number": 6,
     "title": "Morning in Veylreach",
     "speaker": "NARRATOR",
     "dialogue": "The next morning, Setsuna returns to the lower city. He remembers the pain, not the memory.",
-    "image": "panels/panel-06.svg"
+    "image": "panel-06.svg"
   },
   {
     "number": 7,
     "title": "The Bread Seller",
     "speaker": "Vendor",
     "dialogue": "You're back already?",
-    "image": "panels/panel-07.svg"
+    "image": "panel-07.svg"
   },
   {
     "number": 8,
     "title": "Small Habits",
     "speaker": "Setsuna",
     "dialogue": "You overcharge everyone.",
-    "image": "panels/panel-08.svg"
+    "image": "panel-08.svg"
   },
   {
     "number": 9,
     "title": "A Smile",
     "speaker": "Vendor",
     "dialogue": "And somehow you still come back.",
-    "image": "panels/panel-09.svg"
+    "image": "panel-09.svg"
   },
   {
     "number": 10,
     "title": "An Empty Answer",
     "speaker": "NARRATOR",
     "dialogue": "Setsuna has routines. He has instincts.\nWhat he does not have is a past.",
-    "image": "panels/panel-10.svg"
+    "image": "panel-10.svg"
   },
   {
     "number": 11,
     "title": "Royal Banners",
     "speaker": "NARRATOR",
     "dialogue": "Today the capital prepares for the King's procession.",
-    "image": "panels/panel-11.svg"
+    "image": "panel-11.svg"
   },
   {
     "number": 12,
     "title": "The King's Road",
     "speaker": "Crowd",
     "dialogue": "Make way!",
-    "image": "panels/panel-12.svg"
+    "image": "panel-12.svg"
   },
   {
     "number": 13,
     "title": "A Familiar Crest",
     "speaker": "Setsuna",
     "dialogue": "That symbol...",
-    "image": "panels/panel-13.svg"
+    "image": "panel-13.svg"
   },
   {
     "number": 14,
     "title": "The Pain Returns",
     "speaker": "NARRATOR",
     "dialogue": "The crest should mean nothing to him.\nInstead, his scar burns.",
-    "image": "panels/panel-14.svg"
+    "image": "panel-14.svg"
   },
   {
     "number": 15,
     "title": "The Woman in Black",
     "speaker": "Lyra",
     "dialogue": "Are you hurt?",
-    "image": "panels/panel-15.svg"
+    "image": "panel-15.svg"
   },
   {
     "number": 16,
     "title": "The First Look",
     "speaker": "Setsuna",
     "dialogue": "Do I know you?",
-    "image": "panels/panel-16.svg"
+    "image": "panel-16.svg"
   },
   {
     "number": 17,
     "title": "A Careful Lie",
     "speaker": "Lyra",
     "dialogue": "No.",
-    "image": "panels/panel-17.svg"
+    "image": "panel-17.svg"
   },
   {
     "number": 18,
     "title": "The Wrong Answer",
     "speaker": "Setsuna",
     "dialogue": "You answered too quickly.",
-    "image": "panels/panel-18.svg"
+    "image": "panel-18.svg"
   },
   {
     "number": 19,
     "title": "Lyra Veyne",
     "speaker": "NARRATOR",
     "dialogue": "Lyra Veyne carries a sealed royal document and a secret she was ordered not to reveal.",
-    "image": "panels/panel-19.svg"
+    "image": "panel-19.svg"
   },
   {
     "number": 20,
     "title": "The Question",
     "speaker": "Lyra",
     "dialogue": "What do you remember?",
-    "image": "panels/panel-20.svg"
+    "image": "panel-20.svg"
   },
   {
     "number": 21,
     "title": "The Truth",
     "speaker": "Setsuna",
     "dialogue": "Nothing I can trust.",
-    "image": "panels/panel-21.svg"
+    "image": "panel-21.svg"
   },
   {
     "number": 22,
     "title": "A Warning",
     "speaker": "Lyra",
     "dialogue": "Then don't trust the people who say they remember for you.",
-    "image": "panels/panel-22.svg"
+    "image": "panel-22.svg"
   },
   {
     "number": 23,
     "title": "The Knight",
     "speaker": "Kael",
     "dialogue": "Step away from her.",
-    "image": "panels/panel-23.svg"
+    "image": "panel-23.svg"
   },
   {
     "number": 24,
     "title": "Kael Draven",
     "speaker": "NARRATOR",
     "dialogue": "A royal knight. Young enough to be underestimated. Experienced enough not to care.",
-    "image": "panels/panel-24.svg"
+    "image": "panel-24.svg"
   },
   {
     "number": 25,
     "title": "The Crest",
     "speaker": "Kael",
     "dialogue": "You shouldn't be wearing that face near the King's road.",
-    "image": "panels/panel-25.svg"
+    "image": "panel-25.svg"
   },
   {
     "number": 26,
     "title": "Setsuna Pushes Back",
     "speaker": "Setsuna",
     "dialogue": "I only have one face.",
-    "image": "panels/panel-26.svg"
+    "image": "panel-26.svg"
   },
   {
     "number": 27,
     "title": "A Dangerous Joke",
     "speaker": "Kael",
     "dialogue": "That's not what I meant.",
-    "image": "panels/panel-27.svg"
+    "image": "panel-27.svg"
   },
   {
     "number": 28,
     "title": "Three Watchers",
     "speaker": "NARRATOR",
     "dialogue": "Three people are watching.\nLyra knows two of them.\nKael knows all three.",
-    "image": "panels/panel-28.svg"
+    "image": "panel-28.svg"
   },
   {
     "number": 29,
     "title": "The Strategist",
     "speaker": "Riven",
     "dialogue": "Confirm the eye.",
-    "image": "panels/panel-29.svg"
+    "image": "panel-29.svg"
   },
   {
     "number": 30,
     "title": "The Report",
     "speaker": "Guard",
     "dialogue": "The scar is real, sir.",
-    "image": "panels/panel-30.svg"
+    "image": "panel-30.svg"
   },
   {
     "number": 31,
     "title": "Solene Aria",
     "speaker": "Solene",
     "dialogue": "If that is Setsuna... the Ashen Kingdom wasn't destroyed completely.",
-    "image": "panels/panel-31.svg"
+    "image": "panel-31.svg"
   },
   {
     "number": 32,
     "title": "A Name From Nowhere",
     "speaker": "Setsuna",
     "dialogue": "Ashen...",
-    "image": "panels/panel-32.svg"
+    "image": "panel-32.svg"
   },
   {
     "number": 33,
     "title": "The Pain",
     "speaker": "NARRATOR",
     "dialogue": "The name hits like a blade.",
-    "image": "panels/panel-33.svg"
+    "image": "panel-33.svg"
   },
   {
     "number": 34,
     "title": "Memory Fragment",
     "speaker": "Unknown Voice",
     "dialogue": "Don't look back.",
-    "image": "panels/panel-34.svg"
+    "image": "panel-34.svg"
   },
   {
     "number": 35,
     "title": "Fire",
     "speaker": "NARRATOR",
     "dialogue": "Stone towers collapse.\nA throne burns.\nSomeone is running.",
-    "image": "panels/panel-35.svg"
+    "image": "panel-35.svg"
   },
   {
     "number": 36,
     "title": "The Hand",
     "speaker": "Young Setsuna",
     "dialogue": "Who are you?",
-    "image": "panels/panel-36.svg"
+    "image": "panel-36.svg"
   },
   {
     "number": 37,
     "title": "The Answer",
     "speaker": "Unknown Voice",
     "dialogue": "Someone who promised to protect you.",
-    "image": "panels/panel-37.svg"
+    "image": "panel-37.svg"
   },
   {
     "number": 38,
     "title": "Back to Veylreach",
     "speaker": "Setsuna",
     "dialogue": "That's impossible.",
-    "image": "panels/panel-38.svg"
+    "image": "panel-38.svg"
   },
   {
     "number": 39,
     "title": "Following Lyra",
     "speaker": "NARRATOR",
     "dialogue": "Setsuna follows Lyra into a narrow side street.",
-    "image": "panels/panel-39.svg"
+    "image": "panel-39.svg"
   },
   {
     "number": 40,
     "title": "The Alley",
     "speaker": "Lyra",
     "dialogue": "You should not have followed me.",
-    "image": "panels/panel-40.svg"
+    "image": "panel-40.svg"
   },
   {
     "number": 41,
     "title": "Teleportation",
     "speaker": "Setsuna",
     "dialogue": "Then you shouldn't have disappeared.",
-    "image": "panels/panel-41.svg"
+    "image": "panel-41.svg"
   },
   {
     "number": 42,
     "title": "The Hunter",
     "speaker": "Masked Fighter",
     "dialogue": "You were supposed to stay forgotten.",
-    "image": "panels/panel-42.svg"
+    "image": "panel-42.svg"
   },
   {
     "number": 43,
     "title": "The Strike",
     "speaker": "NARRATOR",
     "dialogue": "The attacker moves with a supernatural technique Setsuna has never seen.",
-    "image": "panels/panel-43.svg"
+    "image": "panel-43.svg"
   },
   {
     "number": 44,
     "title": "The Crimson Eye",
     "speaker": "Setsuna",
     "dialogue": "What... is happening to my eye?",
-    "image": "panels/panel-44.svg"
+    "image": "panel-44.svg"
   },
   {
     "number": 45,
     "title": "The Copy",
     "speaker": "Masked Fighter",
     "dialogue": "You copied my ability.",
-    "image": "panels/panel-45.svg"
+    "image": "panel-45.svg"
   },
   {
     "number": 46,
     "title": "The Escape",
     "speaker": "Kael",
     "dialogue": "Stop!",
-    "image": "panels/panel-46.svg"
+    "image": "panel-46.svg"
   },
   {
     "number": 47,
     "title": "The Wolf",
     "speaker": "NARRATOR",
     "dialogue": "Far above the city, a black wolf opens its eyes.",
-    "image": "panels/panel-47.svg"
+    "image": "panel-47.svg"
   },
   {
     "number": 48,
     "title": "Remember",
     "speaker": "Wolf",
     "dialogue": "Remember.",
-    "image": "panels/panel-48.svg"
+    "image": "panel-48.svg"
   },
   {
     "number": 49,
     "title": "The Choice",
     "speaker": "Setsuna",
     "dialogue": "If my past is looking for me... I'll meet it.",
-    "image": "panels/panel-49.svg"
+    "image": "panel-49.svg"
   },
   {
     "number": 50,
     "title": "The Beginning",
     "speaker": "NARRATOR",
     "dialogue": "Someone is watching.\nSomeone is waiting.\nAnd before the truth can be buried again, Setsuna will have to decide what he is willing to lose.\nThe journey has begun.",
-    "image": "panels/panel-50.svg"
+    "image": "panel-50.svg"
   }
 ]
