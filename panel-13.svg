@@ -1,13 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07152e"/><stop offset="1" stop-color="#d98b5b"/></linearGradient></defs>
-<rect width="1600" height="1000" fill="url(#g)"/><circle cx="1280" cy="180" r="150" fill="#fff" opacity=".18"/>
-<path d="M0 650 L180 520 350 610 520 470 720 620 900 460 1100 610 1320 480 1600 620 1600 1000 0 1000Z" fill="#03050a" opacity=".62"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop stop-color="#07152e"/><stop offset="1" stop-color="#d98b5b"/>
+</linearGradient></defs>
+<rect width="1600" height="1000" fill="url(#g)"/>
+<circle cx="1280" cy="180" r="150" fill="#fff" opacity=".15"/>
+<path d="M0 650 L180 520 350 610 520 470 720 620 900 460 1100 610 1320 480 1600 620 1600 1000 0 1000Z" fill="#03050a" opacity=".60"/>
 <rect x="42" y="42" width="1516" height="916" rx="22" fill="none" stroke="#fff" stroke-opacity=".24" stroke-width="3"/>
 <text x="75" y="105" fill="#fff" font-family="Arial,sans-serif" font-size="28" font-weight="700">PANEL 13 / 50</text>
 <text x="1525" y="105" text-anchor="end" fill="#fff" font-family="Arial,sans-serif" font-size="28" font-weight="700">A Familiar Crest</text>
-<text x="90" y="610" fill="#fff" opacity=".75" font-family="Arial,sans-serif" font-size="22">Setsuna</text>
-<text x="90" y="585" fill="#fff" opacity=".45" font-family="Arial,sans-serif" font-size="18">ANIME STORYBOARD ART SLOT</text>
-<text x="90" y="680" fill="#fff" font-family="Arial,sans-serif" font-size="34">That symbol...</text>
-
-<text x="90" y="920" fill="#fff" opacity=".55" font-family="Arial,sans-serif" font-size="18">Replace with finished anime artwork without changing the story code.</text>
+<text x="90" y="915" fill="#fff" opacity=".55" font-family="Arial,sans-serif" font-size="18">FINAL FULL-COLOR ANIME ARTWORK SLOT — narrator text lives below the image.</text>
 </svg>

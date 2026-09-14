@@ -23,7 +23,7 @@ function render() {
 
   if (p.speaker === "NARRATOR") {
     nb.classList.remove("hidden");
-    nt.textContent = p.dialogue;
+    nt.textContent = p.dialogue || "";
     sp.textContent = "";
     tx.textContent = "";
   } else {
@@ -40,7 +40,6 @@ function next() {
     render();
   }
 }
-
 function prev() {
   if (current > 0) {
     current -= 1;
@@ -61,11 +60,7 @@ document.getElementById("openReader").addEventListener("click", () => {
   render();
   reader.scrollIntoView({ behavior: "smooth" });
 });
-
-document.getElementById("closeReader").addEventListener("click", () => {
-  reader.classList.add("hidden");
-});
-
+document.getElementById("closeReader").addEventListener("click", () => reader.classList.add("hidden"));
 document.getElementById("next").addEventListener("click", next);
 document.getElementById("next2").addEventListener("click", next);
 document.getElementById("prev").addEventListener("click", prev);
