@@ -1,13 +1,15 @@
 # NEX MANGA — The Wolf King
-## Season 1 • Chapter 1 — The Forgotten Pain
 
-Clean 50-panel reader update:
+50-panel Chapter 1 update with the narrator kept as a visual storytelling element.
+
+Included:
 - Exactly 50 panels
-- No narrator voice feature
-- No narrator playback controls
-- Character/story text remains readable in the panel UI
+- Narrator caption boxes remain visible
+- Narrator voice controls removed
+- No browser text-to-speech
+- Character dialogue bubbles remain
 - Previous/Next navigation
-- Progress tracking
-- Correct root-level panel image paths
+- 50-panel progress tracking
+- Root-level panel image paths
 
-The existing `panel-51.svg` in the GitHub repository may remain; this reader does not load it.
+Later, the narrator boxes can be connected to the AI/Divine One voice system without redesigning the reader.

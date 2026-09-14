@@ -7,6 +7,8 @@ const pn = document.getElementById("pn");
 const pt = document.getElementById("pt");
 const sp = document.getElementById("sp");
 const tx = document.getElementById("tx");
+const narratorBox = document.getElementById("narratorBox");
+const narratorText = document.getElementById("narratorText");
 const bar = document.querySelector(".progress > div");
 const counter = document.getElementById("counter");
 
@@ -18,10 +20,25 @@ function render() {
   img.alt = `Panel ${p.number}: ${p.title}`;
   pn.textContent = `PANEL ${String(p.number).padStart(2, "0")}`;
   pt.textContent = p.title;
-  sp.textContent = p.speaker || "STORY";
-  tx.textContent = `“${p.dialogue || p.scene || ""}”`;
   counter.textContent = `${p.number} / 50`;
   bar.style.setProperty("--p", `${(p.number / 50) * 100}%`);
+
+  if (p.speaker === "NARRATION" && p.dialogue) {
+    narratorBox.classList.remove("hidden");
+    narratorText.textContent = p.dialogue;
+    sp.textContent = "";
+    tx.textContent = "";
+  } else if (p.speaker && p.dialogue) {
+    narratorBox.classList.add("hidden");
+    narratorText.textContent = "";
+    sp.textContent = p.speaker;
+    tx.textContent = `“${p.dialogue}”`;
+  } else {
+    narratorBox.classList.add("hidden");
+    narratorText.textContent = "";
+    sp.textContent = "";
+    tx.textContent = "";
+  }
 }
 
 function next() {
@@ -41,8 +58,7 @@ function prev() {
 async function loadPanels() {
   const response = await fetch("panels.json", { cache: "no-store" });
   if (!response.ok) throw new Error("Could not load panel data.");
-  const data = await response.json();
-  panels = data.slice(0, 50);
+  panels = (await response.json()).slice(0, 50);
   render();
 }
 
